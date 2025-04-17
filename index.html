@@ -11,34 +11,40 @@
 <body>
 
     <nav class="navbar">
-        <div class="container">
-            <div class="logo">QMLES Blog</div>
-            <ul class="nav-links">
-                <li><a href="#join">Join</a></li>
-                <li class="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <a href="#about">About Us</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#mission">Our Mission</a></li>
-                        <li><a href="#team">Meet the Team</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <a href="#projects">Projects</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#project1">Project 1</a></li>
-                        <li><a href="#project2">Project 2</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <a href="#contact">Contact Us</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#email">Email</a></li>
-                        <li><a href="#location">Location</a></li>
-                    </ul>
-                </li>
-            </ul>
+    <div class="container">
+        <div class="logo">QMLES Blog</div>
+
+        <div class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+            <i class="fas fa-bars"></i>
         </div>
-    </nav>
+        
+        <ul class="nav-links">
+            <li><a href="#join">Join</a></li>
+            <li class="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="#about">About Us</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#mission">Our Mission</a></li>
+                    <li><a href="#team">Meet the Team</a></li>
+                </ul>
+            </li>
+            <li class="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="#projects">Projects</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#project1">Project 1</a></li>
+                    <li><a href="#project2">Project 2</a></li>
+                </ul>
+            </li>
+            <li class="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="#contact">Contact Us</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#email">Email</a></li>
+                    <li><a href="#location">Location</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 
     <header class="hero">
         <div class="hero-content">
@@ -162,6 +168,8 @@
             </div>
         </div>
     </footer>
+    
+<script src="script.js"></script>
 
 </body>
 </html>
